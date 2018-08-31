@@ -385,3 +385,11 @@ Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
 Started GET "/posts/new" for 127.0.0.1 at 2018-08-31 16:31:46 +0000
 Processing by PostsController#new as HTML
   Rendered posts/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 395ms (Views: 381.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-08-31 16:31:46 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
